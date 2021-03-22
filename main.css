@@ -1,0 +1,36 @@
+* {
+  /* margin: 10px; */
+}
+@media only screen and (max-width: 600px) {
+  input {
+    width: 75%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  textarea {
+    width: 75%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  button {
+    margin-top: 20px;
+
+    width: 20%;
+    padding: 5px;
+    border-radius: 100px;
+    border: solid 0.5px black;
+  }
+}
+
+#body {
+  height: 60vh;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 200px; */
+}
